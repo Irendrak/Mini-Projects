@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Crime Report</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -16,6 +16,10 @@
       width: 70%;
       margin: auto;
   }
+  body {
+	  background-image:url('images/a.jpg');
+	  background-size:cover;
+	  }
   </style>
 </head>
 <body>
@@ -29,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Crime Analysis</a>
+                <a class="navbar-brand"><b>Crime Report</b></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -90,14 +94,23 @@
       <div class="item active">
         <img src="images/01.jpg" alt="Chania" width="460" height="345">
       </div>
+	  
+	
     
       <div class="item">
         <img src="images/02.jpg" alt="Flower" width="460" height="345">
       </div>
 
       <div class="item">
-        <img src="images/02.jpg" alt="Flower" width="460" height="345">
+        <img src="images/03.jpg" alt="Flower" width="460" height="345">
       </div>
+	  
+	  <div class="item">
+        <img src="images/05.jpg" alt="Flower" width="460" height="345">
+      </div>
+	  
+	   
+
     </div>
 
     <!-- Left and right controls -->
